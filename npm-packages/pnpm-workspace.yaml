@@ -420,3 +420,7 @@ allowBuilds:
   puppeteer: false
   sharp: false
   unrs-resolver: false
+
+# Backport the 0.5.1 linear decoder while preserving query-string 7 CommonJS.
+patchedDependencies:
+  decode-uri-component@0.2.2: patches/decode-uri-component@0.2.2.patch
