@@ -136,6 +136,9 @@ overrides:
 
 packageExtensionsChecksum: sha256-BU27jBVskKbU63KqLWxYsloa6vd+MQuO6OTf51BQBxg=
 
+patchedDependencies:
+  decode-uri-component@0.2.2: f11ed09410308d105098976c653d433291e2a9fa690b9de57fe646ed234d9d0e
+
 importers:
 
   .:
@@ -45639,7 +45642,7 @@ snapshots:
     dependencies:
       character-entities: 2.0.2
 
-  decode-uri-component@0.2.2: {}
+  decode-uri-component@0.2.2(patch_hash=f11ed09410308d105098976c653d433291e2a9fa690b9de57fe646ed234d9d0e): {}
 
   decompress-response@6.0.0:
     dependencies:
@@ -55239,7 +55242,7 @@ snapshots:
 
   query-string@7.1.3:
     dependencies:
-      decode-uri-component: 0.2.2
+      decode-uri-component: 0.2.2(patch_hash=f11ed09410308d105098976c653d433291e2a9fa690b9de57fe646ed234d9d0e)
       filter-obj: 1.1.0
       split-on-first: 1.1.0
       strict-uri-encode: 2.0.0
